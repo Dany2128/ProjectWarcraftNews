@@ -1,0 +1,74 @@
+.h1scream {
+  text-decoration: underline overline;
+  text-decoration-color: red;
+  position: relative;
+  top: -240px;
+  left: 760px;
+}
+.wanted {
+  font-style: italic;
+  position: relative;
+  top: -265px;
+  left: 700px;
+  padding: 3px;
+}
+.P1 {
+  line-height: 1.5rem;
+  column-count: 2;
+  width: 840px;
+  column-rule: 2px solid rgb(255, 0, 0);
+  font-size: 20px;
+  margin-left: 500px;
+  margin-top: -70px;
+}
+.grom {
+  filter: grayscale(5);
+  width: 300px;
+  height: 200px;
+  position: relative;
+  left: 950px;
+  top: 130px;
+  border-radius: 3px;
+}
+.beskrivning {
+  position: relative;
+  left: 925px;
+  top: 110px;
+  font-style: italic;
+}
+h4 {
+  position: absolute;
+  left: 500px;
+  column-count: 1;
+  width: 400px;
+  bottom: 560px;
+  margin-bottom: -1px;
+}
+body {
+  background-image: url(/images/loktar.jpg);
+}
+.warsong {
+  position: absolute;
+  left: 20px;
+  top: 10px;
+}
+.warsong2 {
+  position: relative;
+  float: right;
+  right: 20px;
+  width: 200px;
+}
+.nextpage {
+  position: relative;
+  float: right;
+  bottom: -130px;
+  left: 170px;
+}
+.daily {
+  position: relative;
+  top: -50px;
+  left: 20px;
+  font-size: 30px;
+  font-family: "Lobster", cursive;
+  text-decoration: underline;
+}

@@ -1,0 +1,70 @@
+html {
+  background: url(/images/newspaper.jpg) no-repeat center fixed;
+  background-size: cover;
+  width: 50%;
+}
+.gally {
+  position: relative;
+  left: 33rem;
+  bottom: -3rem;
+  border-radius: 50px;
+  filter: (grayscale(1));
+}
+.text {
+  width: 80ch;
+  column-count: 2;
+  column-gap: 3rem;
+  font-size: 20px;
+  text-shadow: 1px 1px grey;
+  position: relative;
+  left: 34rem;
+  column-rule: 3px solid brown;
+  bottom: 34rem;
+}
+.titeln {
+  position: relative;
+  left: 35ch;
+  top: -25rem;
+  text-decoration-line: overline underline;
+  text-decoration-color: brown;
+  text-decoration-thickness: 5px;
+}
+.wanted {
+  bottom: 59rem;
+  left: 30rem;
+  position: relative;
+  font-size: 8ch;
+  text-decoration-line: overline;
+  text-decoration-color: brown;
+  text-decoration-thickness: 5px;
+}
+
+.treasure {
+  position: relative;
+  height: 90%;
+  width: 40%;
+  right: -rem;
+  bottom: 23rem;
+  left: 60rem;
+}
+.controls {
+  position: relative;
+  right: 23rem;
+  bottom: 25rem;
+  border: 2px solid brown;
+  border-radius: 50px;
+}
+body {
+  animation: fadeInAnimation ease 7s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
